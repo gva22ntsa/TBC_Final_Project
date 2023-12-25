@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Spellbound Sorting Hat</title>
+</head>
+<body>
+  <header>
+       
+    <nav>
+        <ul>
+            <li> <a href="https://www.tbceducation.ge/"> <img class="logo"       src="\images\თიბისი.png" alt="TBC logo"> </a></li>
+            <li><a href="\მთავარი\index.html">მთავარი</a></li>
+            <li><a href="\ჩვენს შესახებ\index.html">ჩვენს შესახებ</a></li>
+            <li><a href="\სერვისები\index.html">სერვისები</a></li>
+            <li><a href="\სიახლე\index.html">სიახლე </a></li>
+            <li><a href="\კონტაქტი\index.html">კონტაქტი </a></li>
+        </ul>
+    </nav>
+
+  
+</header>
+
+
+<!-- Header Section -->
+    <!-- <header>
+        <h1>Spellbound Sorting Hat</h1>
+        <p>Discover your true magical identity!</p>
+    </header> -->
+
+    <!-- Main Content Section -->
+    <section class="main-content">
+      <h2>უპასუხეთ შემდეგ კითხვებს და გამანაწილებელი ქუდი გამოავლენს თქვენს ჰოგვორტსის სახლს:</h2>
+
+      <!-- Questionnaire -->
+
+
+
+
+      <form id="sorting-hat-form">
+          <label for="question1">რომელია თქვენთვის სასურველი ტრანსპორტირების გზა?</label>
+          <select id="question1" name="question1">
+              <option value="broomstick">ცოცხი</option>
+              <option value="apparition">უჩინმაჩინის მოსასხამი</option>
+              <option value="floo-powder">ფლუის ფხვნილი</option>
+              <option value="thestral">თესტრალი</option>
+          </select>
+
+          <br>
+          <label for="question2">რომელ თვისებას აფასებთ ყველაზე მეტად?</label>
+          <input type="radio" id="question2-გრიფინდორი" name="question2" value="გრიფინდორის">
+          <label for="question2-გრიფინდორის ">სიმამაცე</label>
+ 
+
+          <input type="radio" id="question2-რეივენქლო" name="question2" value="რეივენქლოს">
+          <label for="question2-რეივენქლოს">სიბრძნე</label>
+
+          <input type="radio" id="question2-slytherin" name="question2" value="სლიზერინის">
+          <label for="question2-სლიზერინის">ამბიციურობა</label>
+
+          <input type="radio" id="question2-hufflepuff" name="question2" value="ჰაფლეპაფის">
+          <label for="question2-ჰაფლეპაფის">ერთგულება</label>
+
+          <button type="button" onclick="sortIntoHouse()">გამანაწილე!</button>
+      </form>
+
+ 
+      <div id="sorting-result"></div>
+  </section>
+
+
+
+
+  <script src="\სერვისები\sorting-hat\sorting\script.js"></script>
+
+  
+  <footer> &copy;ჰარი პოტერის ვებგვერდი ყველა უფლება დაცულია</footer>
+  </body>
+  </html>

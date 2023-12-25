@@ -1,0 +1,162 @@
+
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+header {
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    }
+    
+  
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 1em 100px;
+  
+  }
+  
+    nav ul {
+    list-style: none;
+    }
+    
+  
+    a {
+    text-decoration: none;
+    color:white;
+    }
+   
+   
+    
+   .logo{
+    width: 50px;
+    height: 50px;
+    }
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        #contact-section {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 50px;
+            margin: 50px auto;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h2 {
+            color: #000000;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 36px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .contact-info div {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+            animation: floatIn 1s ease-in-out;
+        }
+
+        .contact-info div:hover {
+            transform: scale(1.05);
+        }
+
+        .contact-info h4 {
+            margin-bottom: 10px;
+            color: #434343;
+        }
+
+        .contact-info p {
+            color: #000000;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .social-icons a {
+            margin: 0 15px;
+            font-size: 36px;  
+            color: #434343;
+            transition: color 0.3s ease-in-out;
+            animation: bounceIn 1s ease-in-out;
+        }
+
+        .social-icons a:hover {
+            color: #253dd874;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes floatIn {
+            from {
+                transform: translateY(-20px);
+            }
+
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes bounceIn {
+            from {
+                transform: scale(0.8);
+            }
+
+            to {
+                transform: scale(1);
+            }
+        }
+  

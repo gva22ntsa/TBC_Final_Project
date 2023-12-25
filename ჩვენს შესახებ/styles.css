@@ -1,0 +1,137 @@
+/* 
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+header {
+padding: 10px;
+text-align: center;
+margin-top: 30px;
+
+}
+
+nav {
+
+margin-top: 10px;
+}
+
+nav ul {
+list-style: none;
+}
+
+nav ul li {
+
+display: inline;
+margin-right: 100px;
+}
+
+a {
+text-decoration: none;
+color:white;
+}
+
+
+
+.logo{
+width: 50px;
+height: 50px;
+} */
+
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/images/hogwarts.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+
+}
+
+
+header {
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+  }
+  
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em 100px;
+
+}
+
+  nav ul {
+  list-style: none;
+  }
+  
+
+  a {
+  text-decoration: none;
+  color:white;
+  }
+ 
+ 
+  
+ .logo{
+  width: 50px;
+  height: 50px;
+  }
+  
+
+  
+
+
+section {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    line-height: 1.6;
+    color: rgb(254, 254, 255);
+}
+
+
+
+footer {
+  background-color: #616161;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+ }
