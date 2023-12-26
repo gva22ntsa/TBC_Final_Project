@@ -13,7 +13,8 @@ header {
   background-color: rgba(92, 68, 34, 0.8);
   text-align: center;
   padding: 15px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -44,9 +45,14 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 1em 100px;
 }
 
@@ -56,6 +62,10 @@ nav a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
+  
+  -webkit-transition: color 0.3s ease;
+  
+  -o-transition: color 0.3s ease;
   
   transition: color 0.3s ease;
 }
@@ -79,14 +89,16 @@ main {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
