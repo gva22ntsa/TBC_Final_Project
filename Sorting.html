@@ -1,75 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Sorting.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Sorting.css" />
     <title>Spellbound Sorting Hat</title>
-</head>
-<body>
-  <header>
-       
-    <nav>
+  </head>
+  <body>
+    <header>
+      <nav>
         <ul>
-            <li> <a href="https://www.tbceducation.ge/"> <img class="logo"  src="\images\tbc.png" alt="TBC logo"> </a></li>
-            <li><a href="index.html">მთავარი</a></li>
-                <li><a href="AboutUs.html">ჩვენს შესახებ</a></li>
-                <li><a href="Services.html">სერვისები</a></li>
-                <li><a href="News.html">სიახლე </a></li>
-                <li><a href="Contact.html">კონტაქტი </a></li>
+          <li>
+            <a href="https://www.tbceducation.ge/"> <img class="logo" src="images/tbc.png" alt="TBC logo" /> </a>
+          </li>
+          <li><a href="index.html">მთავარი</a></li>
+          <li><a href="AboutUs.html">ჩვენს შესახებ</a></li>
+          <li><a href="Services.html">სერვისები</a></li>
+          <li><a href="News.html">სიახლე </a></li>
+          <li><a href="Contact.html">კონტაქტი </a></li>
         </ul>
-    </nav>
-
-  
-</header>
-
-
+      </nav>
+    </header>
 
     <section class="main-content">
       <h2>უპასუხეთ შემდეგ კითხვებს და გამანაწილებელი ქუდი გამოავლენს თქვენს ჰოგვორტსის სახლს:</h2>
 
-      
-
-
-
-
       <form id="sorting-hat-form">
-          <label for="question1">რომელია თქვენთვის სასურველი ტრანსპორტირების გზა?</label>
-          <select id="question1" name="question1">
-              <option value="broomstick">ცოცხი</option>
-              <option value="apparition">უჩინმაჩინის მოსასხამი</option>
-              <option value="floo-powder">ფლუის ფხვნილი</option>
-              <option value="thestral">თესტრალი</option>
-          </select>
+        <label for="question1">რომელია თქვენთვის სასურველი ტრანსპორტირების გზა?</label>
+        <select id="question1" name="question1">
+          <option value="broomstick">ცოცხი</option>
+          <option value="apparition">უჩინმაჩინის მოსასხამი</option>
+          <option value="floo-powder">ფლუის ფხვნილი</option>
+          <option value="thestral">თესტრალი</option>
+        </select>
 
-          <br>
-          <label for="question2">რომელ თვისებას აფასებთ ყველაზე მეტად?</label>
-          <input type="radio" id="question2-გრიფინდორი" name="question2" value="გრიფინდორის">
-          <label for="question2-გრიფინდორის ">სიმამაცე</label>
- 
+        <br />
+        <label for="question2">რომელ თვისებას აფასებთ ყველაზე მეტად?</label>
+        <input type="radio" id="question2-გრიფინდორი" name="question2" value="გრიფინდორის" />
+        <label for="question2-გრიფინდორის ">სიმამაცე</label>
 
-          <input type="radio" id="question2-რეივენქლო" name="question2" value="რეივენქლოს">
-          <label for="question2-რეივენქლოს">სიბრძნე</label>
+        <input type="radio" id="question2-რეივენქლო" name="question2" value="რეივენქლოს" />
+        <label for="question2-რეივენქლოს">სიბრძნე</label>
 
-          <input type="radio" id="question2-slytherin" name="question2" value="სლიზერინის">
-          <label for="question2-სლიზერინის">ამბიციურობა</label>
+        <input type="radio" id="question2-slytherin" name="question2" value="სლიზერინის" />
+        <label for="question2-სლიზერინის">ამბიციურობა</label>
 
-          <input type="radio" id="question2-hufflepuff" name="question2" value="ჰაფლეპაფის">
-          <label for="question2-ჰაფლეპაფის">ერთგულება</label>
+        <input type="radio" id="question2-hufflepuff" name="question2" value="ჰაფლეპაფის" />
+        <label for="question2-ჰაფლეპაფის">ერთგულება</label>
 
-          <button type="button" onclick="sortIntoHouse()">გამანაწილე!</button>
+        <button type="button" onclick="sortIntoHouse()">გამანაწილე!</button>
       </form>
 
- 
       <div id="sorting-result"></div>
-  </section>
+    </section>
 
+    <script src="Sorting.js"></script>
 
-
-
-  <script src="Sorting.js"></script>
-
-  
-  <footer> &copy;ჰარი პოტერის ვებგვერდი ყველა უფლება დაცულია</footer>
+    <footer>&copy;ჰარი პოტერის ვებგვერდი ყველა უფლება დაცულია</footer>
   </body>
-  </html>
+</html>
